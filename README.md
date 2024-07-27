@@ -2,8 +2,8 @@
 
 ## 介绍
 此项目包含两个主要的Python脚本：
-1. **COCO to YOLO Converter**：用于将COCO格式的图像标注数据转换为YOLO目标检测模型所需的标签格式。
-2. **Dataset Organizer**：用于将图像文件及其对应的标签文件从源文件夹分配到训练集和验证集。
+1. **convert,py**：用于将COCO格式的图像标注数据转换为YOLO目标检测模型所需的标签格式。
+2. **split**：用于将图像文件及其对应的标签文件从源文件夹分配到训练集和验证集。
 
 ## 数据结构需求
 - 对于COCO to YOLO Converter，您的JSON输入文件必须包含：
@@ -28,24 +28,24 @@
 
 ## 使用说明
 确保您的文件结构符合上述要求，并调整脚本中的路径设置，然后运行相应的脚本：
-- 对于COCO to YOLO Converter：
+- 对于convert：
   ```bash
   python coco_to_yolo_converter.py
 
-  •	对于Dataset Organizer：
+- 对于split：
 
   ```python
   python dataset_organizer.py
   ```
 
-  注意事项
+  ## 注意事项
 
-	•	确保有足够的磁盘空间来复制或移动文件。
-	•	检查生成的标签文件和图像文件确保格式正确无误。
+- 确保有足够的磁盘空间来复制或移动文件。
+- 检查生成的标签文件和图像文件确保格式正确无误。
 
-联系方式
+## 联系方式
 
 如有问题，请通过以下方式联系我：
 
-	•	邮箱: your_email@example.com
-	•	GitHub: your_github_profile
+邮箱: feiyuzi@gmail.com
+GitHub: HFHL
